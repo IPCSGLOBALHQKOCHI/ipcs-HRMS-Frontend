@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+#root,
+body,
+html {
+  /* @apply bg-customBg; */
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch !important;
+  width: 100% !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  /* font-family: 'proxima-nova', sans-serif; */
+  /* font-family: 'Aspekta', sans-serif; */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; 
+}
